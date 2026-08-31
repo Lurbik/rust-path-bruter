@@ -1,0 +1,11 @@
+[package]
+name = "path-bruter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = ["rustls-tls"] }
+colored = "2"
+futures-util = "0.3"
+chrono = "0.4"
